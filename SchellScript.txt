@@ -1,0 +1,54 @@
+Command::
+nano file.txt   ==>open nano editor
+ctrl + o ==>mentioning the file name > > Enter >>show line nos 
+ctrl + x ==>exit from current job
+cp ==>copy source to destination(fullpath)
+mv ==>move from source to destination(fullpath) ex: mv source destinaton
+rm ==> remove form destinaton
+cat ==>display file contend,copy file contend
+echo ==>printing something
+less ==>open separated window
+esc + q ==>return back your window
+cut==>To extract a given number of characters from a file
+ls==>To get the details of files and directories
+grep==>To search for a specific term{'^'-start char','&-end with',[]-range,'.'-any single char
+sort==>sort the content of the text file
+touch ==> creating branch of file quickly/empty file
+chmod ==>Given permission to a script. ex: chmod +x test1.sh
+ ## also we can give permission using no(0 to 7)
+ 0 == 0   ==> nothing
+ 1 == 1   ==> execute
+ 2 == 2   ==> write
+ 3 == 1+2 ==> execute + write                       7        7    7             Ex: chmod 777 fileName
+ 4 == 4   ==> read                                user usergroup other
+ 5 == 1+4 ==> execute + read
+ 6 == 4+2 ==> read + write
+ 7 == 4+3 ==> read + execute + write
+ 
+ Local variable : A local variable is a variable that present within the current instance of the shell .
+                 It is not available to programs that are started by the shell.They are set at the command prompt.
+
+ Environment variable : An environment is variable to any child process of the shell .Some programs need environment variables
+                        in order to function correctly.
+						
+ Shell variable : A shell variable is special type of variable that is set by the shell and is required by the shell in order to function
+                  correctly.Some of these variable are environment variable whereas others are local variables.
+				  
+ Note: unset
+ 
+$0 ==>fileName of the script
+$1....9==>parameter number or position
+$# ==>no of argument supply to the script
+$* ==>all the argument that are double queted
+$@ ==> given the argument that are individualy double quoted
+$? ==>given the last command executed
+$$ ==>process no of current schell 
+
+OPERATORS ::
+LOOPS ::
+for loop syntax => for vat in w1 w2 ...wN (w=word)
+                   do 
+				     statement
+				   done	 
+ 
+ 

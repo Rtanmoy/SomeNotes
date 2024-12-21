@@ -1,0 +1,48 @@
+ConvertToPython
+
+Code : 
+print("enter your name:")
+name=input()
+num1=int(input("Enter First number:"))
+num2=int(input("Enter second number"))
+sumvalue=num1+num2
+print("Hi {}".format(name))
+print(f"{num1} + {num2} = {sumvalue}") #comment1 : fstring
+
+str1=f'''Hello {name}!
+It is a beautiful world!
+I have learned the addition of {num1} + {num2} = {sumvalue} '''
+
+print(str1)
+
+
+====
+multiline comment
+DataType====>>string,int,float
+tuple=to work with collection of elements
+dictionary=key-value pair
+list=duplicate allow,modifiable
+set=not modifiable
+=======
+list =>[],list()
+set=>set()/
+
+
+======
+control statement
+=======
+operator
+======
+Q WAP to build a calculator
+
+Menu
+1. Add
+2. Subtract
+3. Multiplication
+4. Exact division
+5. Quotient
+6. Remaindar
+7. Exponent
+0. Exit
+
+Enter your choice:
